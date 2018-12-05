@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by zl on 2015/8/27.
- */
+
 @RestController
 @RequestMapping(value="/users")
 public class SwaggerController {

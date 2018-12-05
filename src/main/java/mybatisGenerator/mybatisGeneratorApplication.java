@@ -16,7 +16,7 @@ public class mybatisGeneratorApplication {
         gc.setOutputDir(".\\auto-generate");
         gc.setFileOverride(true);
         gc.setActiveRecord(true);
-        gc.setEnableCache(true);// XML 二级缓存
+        gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
         gc.setBaseColumnList(true);// XML columList
         //gc.setAuthor("Wicky");
@@ -25,7 +25,7 @@ public class mybatisGeneratorApplication {
         gc.setMapperName("%sDao");
         gc.setXmlName("%sMapper");
         gc.setServiceName("%sService");
-        gc.setServiceImplName("%sServiceImp");
+        gc.setServiceImplName("%sServiceImpl");
         gc.setControllerName("%sController");
         mpg.setGlobalConfig(gc);
 
