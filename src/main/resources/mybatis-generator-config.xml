@@ -25,11 +25,11 @@
             <!-- whether make trim call to string type when set is called -->
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
-        <!--在sqlMapGenerator标签下配置mysql的xml配置文件-->
+        <! -- Configure mysql's xml configuration file under the sqlMapGenerator tag -->
         <sqlMapGenerator targetPackage="mybatis" targetProject="src/main/resources" >
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
-        <!--在javaClientGenerator标签下配置mapper方法-->
+        <! -- Configuring the mapper method under the javaClientGenerator tag -->
         <javaClientGenerator targetPackage="scau.graduationProject.CSA.mapper"
                              targetProject="src/main/java" type="XMLMAPPER" >
             <property name="enableSubPackages" value="true"/>
